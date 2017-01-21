@@ -26,3 +26,7 @@ body ,html{
     top: 50%;
     width: 100%;
 }
+
+.name{
+	text-align: center;
+}
