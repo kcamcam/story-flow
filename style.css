@@ -18,31 +18,13 @@ body ,html{
 }
 
 .mainTitle {
-    margin-bottom: 20px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-	color: #8a3ab9;
-    font-size: 4em;
-    top: 50%;
-    width: 100%;
-}
-
-.name{
+	margin-bottom: 20px;
 	text-align: center;
-}
-
-.mainButton {
-    margin-bottom: 5px;
-    color: white;
-    font-size: 2em;
-    text-align: center;
-    height: 80px;
-    vertical-align: center;
-    border-radius: 8px;
-}
-
-.mainButton:hover {
-    cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+	color: #8a3ab9;
+	font-size: 4em;
+	top: 50%;
+	width: 100%;
 }
 
 #underVideoTxt {
