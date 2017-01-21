@@ -30,3 +30,32 @@ body ,html{
 .name{
 	text-align: center;
 }
+
+.mainButton {
+    margin-bottom: 5px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    height: 80px;
+    vertical-align: center;
+    border-radius: 8px;
+}
+
+.mainButton:hover {
+    cursor: pointer;
+}
+
+#underVideoTxt {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#underImage {
+    border-radius: 100%;
+    width: 50px;
+}
+
+#underText {
+    margin-left: 5px;
+    color: white;
+}
