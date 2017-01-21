@@ -13,6 +13,9 @@ body ,html{
 	padding-bottom: 50px;
 	padding-top: 20 px;
 }
+.name{
+	text-align: center;
+}
 
 .mainTitle {
     margin-bottom: 20px;
@@ -22,7 +25,4 @@ body ,html{
     font-size: 4em;
     top: 50%;
     width: 100%;
-}
-.footer{
-	text-align: center;
 }
