@@ -27,7 +27,6 @@ body ,html{
 #underVideoTxt {
     margin-top: 10px;
     text-align: center;
-	color: black;
 }
 
 #underImage {
@@ -37,5 +36,5 @@ body ,html{
 
 #underText {
     margin-left: 5px;
-    color: white;
+    color: black;
 }
