@@ -38,3 +38,42 @@ body ,html{
     margin-left: 5px;
     color: black;
 }
+
+#landing {
+    margin-top: 33%;
+    text-align: center;
+}
+
+.landingText {
+    color: #f7f7f7;
+}
+
+#titleText {
+    margin-bottom: 25px;
+    font-size: 5em;
+}
+
+#descText {
+    font-size: 1.2em;
+    margin-top: 25px;
+}
+
+body {
+    background-image: url("gb.jpg");
+    background-size: cover no-repeat;
+}
+
+#newStoryButton {
+    padding: 5px 0;
+    color: #f7f7f7;
+    width: 200px;
+    font-size: 1.55em;
+    border: 2px solid #f7f7f7;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+#newStoryButton:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+}
