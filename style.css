@@ -1,8 +1,12 @@
+body ,html{
+	height: 100%;
+	width: 100%;
+}
+
 body {
-    background-image: url(gb.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+	font-family: 'Roboto', sans-serif;
 }
 
 #my-video {
@@ -10,35 +14,20 @@ body {
     display: table;
     margin: 0 auto;
 }
+.container{
+	padding-bottom: 50px;
+	padding-top: 20 px;
+}
 
 .mainTitle {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-align: center;
-    font-family: allura;
-    font-size: 8em;
+    font-family: 'Roboto', sans-serif;
+	color: #8a3ab9;
+    font-size: 4em;
     top: 50%;
     width: 100%;
 }
-
-#login-form {
-    
-}
-
-@font-face {
-    font-family: allura;
-    src: url(Allura-Regular.ttf);
-}
-
-.mainButton {
-    margin-bottom: 5px;
-    color: white;
-    font-size: 2em;
-    text-align: center;
-    height: 80px;
-    vertical-align: center;
-    border-radius: 8px;
-}
-
-.mainButton:hover {
-    cursor: pointer;
+.footer{
+	text-align: center;
 }
