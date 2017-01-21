@@ -30,4 +30,7 @@ $(document).ready(function() {
     $("body").on("click", "video", function() {
         cycleVideos();
     })
+    $("body").on("click", "#newStoryButton", function() {
+        alert("Hello");
+    })
 })

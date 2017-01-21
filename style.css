@@ -1,9 +1,3 @@
-body ,html{
-	height: 100%;
-	width: 100%;
-	font-family: 'Roboto', sans-serif;
-}
-
 #my-video {
     border-radius: 15px;
     display: table;
@@ -40,7 +34,7 @@ body ,html{
 }
 
 #landing {
-    margin-top: 33%;
+    margin-top: 25%;
     text-align: center;
 }
 
@@ -64,6 +58,7 @@ body {
 }
 
 #newStoryButton {
+    text-align: center;
     padding: 5px 0;
     color: #f7f7f7;
     width: 200px;
@@ -71,9 +66,31 @@ body {
     border: 2px solid #f7f7f7;
     border-radius: 3px;
     margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.0);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 #newStoryButton:hover {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+#newStoryButton:focus {
+    outline: none;
+    width: 600px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #f7f7f7;
+    font-size: .9em;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #f7f7f7;
+    font-size: .9em;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.3s ease; 
+  opacity: 0;
 }
