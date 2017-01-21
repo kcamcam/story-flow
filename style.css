@@ -1,0 +1,44 @@
+body {
+    background-image: url(gb.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+#my-video {
+    border-radius: 15px;
+    display: table;
+    margin: 0 auto;
+}
+
+.mainTitle {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: allura;
+    font-size: 8em;
+    top: 50%;
+    width: 100%;
+}
+
+#login-form {
+    
+}
+
+@font-face {
+    font-family: allura;
+    src: url(Allura-Regular.ttf);
+}
+
+.mainButton {
+    margin-bottom: 5px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    height: 80px;
+    vertical-align: center;
+    border-radius: 8px;
+}
+
+.mainButton:hover {
+    cursor: pointer;
+}
